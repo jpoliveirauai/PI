@@ -2,13 +2,6 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,93 +9,22 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <ul class="menu">
-            <li class="menu-item">
-                <img class="logotipo" src="img/tenor.png" alt="logotipo">
-            </li>
-            <li class="menu-item">Casas mal assombradas</li>
-            <li class="menu-item">Casas</li>
-            <li class="menu-item">Apartamentos</li>
-            <li class="menu-item">Sobre</li>
-            <li class="menu-item">Campo de busca</li>
-            <li class="menu-item">Login</li>
-        </ul>
+    <!-- Cabeçalho -->
+    <script src="templates/header.js"></script>
 
-    </header>
+    <!-- Corpo da página -->
+    <div class="content">
+        <img class="imagem-boas-vindas" src="img/imobiliaria-boas-vindas.jpg" alt="Boas-vindas">
+    </div>
 
-    <footer id="ts-footer">
-        <section id="ts-footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="logotipo" src="img/tenor.png" alt="logotipo">
-                        <p class="mb-4">
-                            A Zika Imobiliária é uma das pioneiras da atividade no Triângulo Mineiro, com mais de 47
-                            anos no mercado imobiliário. </p>
-                        <a href="#"
-                            class="btn btn-outline-dark mb-4 btn-sm">Conheça a Zika</a>
-                        <a href="#"
-                            class="btn btn-outline-dark mb-4 btn-sm">Contato</a>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Contato</h4>
-                        <address class="ts-text-color-light">
-                            Av. Afonso Pena, 1535 Uberlândia - MG <strong>Email: </strong> <a
-                                href="mailto:site@rotina.com.br" class="btn-link">site@rotina.com.br</a>
-                            <strong>Telefone:</strong>34 3239 5000
-                            <strong>Horário de atendimento: </strong> seg/sex - 8h às 18h sáb - 08h ás 12h </address>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="ts-footer-secondary">
-            <div class="container">
-                <div class="ts-copyright">© 2019, Rotina Administração e Empreendimentos Imobiliários Ltda. Todos os
-                    direitos reservados.</div>
-                <div class="ts-footer-nav">
-                    <nav class="nav"> 
-                        <a href="#" target="_blank" class="nav-link preto" title="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" target="_blank" class="nav-link preto" title="Instagram">
-                           <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" target="_blank" class="nav-link preto" title="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="nav-link preto" title="Blog">
-                            <i class="fa fa-rss"></i>
-                        </a>
-                        <a href="https://www.youtube.com/user/rotinaimobiliaria" target="_blank" class="nav-link preto" title="Youtube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </nav>
-                </div>
-            </div>
-        </section>
-        <section id="ts-footer-secondary">
-            <div class="container justify-content-center"> </div>
-        </section>
-        <div class="fixed-bottom text-center comparar-imoveis-rodape" id="divListaCompararImoveis"
-            style="display: none;">
-            <div class="limite-comparacao" style="display: none;"><small>Limite de 4 registros por comparação</small>
-            </div>
-            <div class="container">
-                <div class="btn-group float-left" role="group" id="divComparar_Imovel" style="display:none;"> <button
-                        type="button" class="btn-primary btn-sm btn btn-secondary"><span class="badge badge-light"
-                            id="total_imoveis_comparar">0</span> Imóveis para comparar </button> <button type="button"
-                        class="btn-primary btn-sm btn btn-secondary btComparar">Comparar</button> <button type="button"
-                        class="btn-primary btn-sm btn btn-secondary btLimparComparar">Limpar</button> </div>
-                <div class="btn-group float-right" role="group" id="divComparar_Lancamento" style="display:none;">
-                    <button type="button" class="btn-primary btn-sm btn btn-secondary"><span class="badge badge-light"
-                            id="total_lancamentos_comparar">0</span> Lançamentos para comparar </button> <button
-                        type="button" class="btn-primary btn-sm btn btn-secondary btComparar">Comparar</button> <button
-                        type="button" class="btn-primary btn-sm btn btn-secondary btLimparComparar">Limpar</button>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Rodapé -->
+    <script src="templates/footer.js"></script>
+    <!-- <?php include "templates/footer.html"; ?> -->
+
+    <!-- Links e includes de arquivos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </body>
-
 </html>
