@@ -1,0 +1,12 @@
+.tab {
+    padding: 20px;
+    display: none;
+}
+.linkp{
+    display: inline-block;
+    padding-left: 10px;
+}
+.linkp button{
+    padding-right: 10px;
+    background-color: transparent;
+}
