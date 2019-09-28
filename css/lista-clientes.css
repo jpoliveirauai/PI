@@ -1,7 +1,19 @@
+.btn-outline-dark{
+    float: right;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+}
+.testes{
+    margin: 10px;
+
+}
+
+.right{
+    float:right;
 }
 
 td, th {
@@ -10,6 +22,5 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+
+
