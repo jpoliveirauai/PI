@@ -68,3 +68,10 @@
     margin: auto;
     width: 50%;
 }
+
+.private-header-items{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
