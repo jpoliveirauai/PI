@@ -1,44 +1,23 @@
-.lista fieldset{
-    border: solid;
-    border-color: lightgrey;
-    width: 87%;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-.lista ul{
-    list-style: none;
-    display: inline;
-}
-.lista li{
-    
-}
-.imagens figure{
-    display: inline-block;
-}
-.imagens li{
-    display: inline;
-}
-.imagens img{
-    width: 22%;
-    padding: 1%;
-    border-radius: 26px;
-    margin: auto auto;
+.btn-outline-dark{
     float: right;
-    margin-top: 4%;
 }
-.info{
-    border-right: solid;
-    border-color: gray;
-    display: inline-block;
-    padding: 5%;
-}
-.imagemM{
-    margin: auto;
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
     width: 100%;
 }
-.centralizar{
-    position: absolute;
-    right: 18%;
+.testes{
+    margin: 10px;
 
+}
+
+.right{
+    float:right;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }

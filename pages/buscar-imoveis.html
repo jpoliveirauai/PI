@@ -11,8 +11,42 @@
     <script src="../templates/header.js"></script>
 
     <!-- Corpo da página -->
-    <main class="content">
-            <img class="imagem-boas-vindas" src="img/imobiliaria-boas-vindas.jpg" alt="Boas-vindas">
+    <main class="content"></main>
+        <div class="lista">
+            <fieldset>
+                <div class="info">
+                    <Ul>
+                        <li>Casa com n quartos</li>
+                        <li>preco $$$$$$$$$$</li>
+                        <li>Localização</li>
+                    </Ul>
+                    <button>Tenho interesse</button>
+                </div>
+                <ul class="imagens">
+                    <li>
+                        <a data-toggle="modal" data-target="#logModal"><img src="https://tag.jn.pt/files/2018/08/pikachu.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a data-toggle="modal" data-target="#logModal"><img src="https://tag.jn.pt/files/2018/08/pikachu.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a data-toggle="modal" data-target="#logModal"><img src="https://tag.jn.pt/files/2018/08/pikachu.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="modal" id="logModal">
+            <div class="modal-dialog centralizar">
+                <div class="">
+                    <div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="imagemM">
+                        <img src="https://tag.jn.pt/files/2018/08/pikachu.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     
     <!-- Rodapé -->
