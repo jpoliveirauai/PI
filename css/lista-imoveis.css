@@ -1,0 +1,44 @@
+.lista fieldset{
+    border: solid;
+    border-color: lightgrey;
+    width: 87%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.lista ul{
+    list-style: none;
+    display: inline;
+}
+.lista li{
+    
+}
+.imagens figure{
+    display: inline-block;
+}
+.imagens li{
+    display: inline;
+}
+.imagens img{
+    width: 22%;
+    padding: 1%;
+    border-radius: 26px;
+    margin: auto auto;
+    float: right;
+    margin-top: 4%;
+}
+.info{
+    border-right: solid;
+    border-color: gray;
+    display: inline-block;
+    padding: 5%;
+}
+.imagemM{
+    margin: auto;
+    width: 100%;
+}
+.centralizar{
+    position: absolute;
+    right: 18%;
+
+}
